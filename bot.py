@@ -21,9 +21,9 @@ async def say_hello(ctx):
 async def reservations(ctx):
     await ctx.send(while restart != ('N','NO','n','no'):
 print("RESREVE")
-restart = ("Y")
+answer = ("Y")
 
-while restart != ('N','NO','n','no'):
+while answer != ('N','NO','n','no'):
     print("1.Check pnr status")
     print("2.Table and Game Reservation")
     option = int(input("\nEnter your option : "))
@@ -45,9 +45,9 @@ while restart != ('N','NO','n','no'):
         table  = str(input("\nTable number : "))
         table_l.append(table)
 
-        restart = str(input("\nOops! Forget someone : "))
-        if restart in ('y','YES','yes','Yes'):
-                restart = ('Y')
+        answer = str(input("\nOops! Forget someone : "))
+        if answer in ('y','YES','yes','Yes'):
+                answer = ('Y')
         else:
                     x=0
         print("People : ",people)
