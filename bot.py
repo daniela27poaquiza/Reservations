@@ -19,7 +19,7 @@ async def say_hello(ctx):
     
 @bot.command()
 async def reservations(ctx):
-    await ctx.send(while restart != ('N','NO','n','no'):
+    await ctx.send(while answer != ('N','NO','n','no'):
 print("RESREVE")
 answer = ("Y")
 
