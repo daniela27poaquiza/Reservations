@@ -17,12 +17,8 @@ async def on_ready():
 async def say_hello(ctx):
     await ctx.send(f"Hi {ctx.author.display_name}")
     
-@bot.command()
-async def reservations():
-print("RESREVE")
-answer = ("Y")
-
-while answer != ('N','NO','n','no'):
+@bot.command(name="reservations", help="Makes game reservations")
+async def reserv():
     print("1.Table and Game Reservation")
     option = int(input("Enter your option: "))
     
